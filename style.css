@@ -1,0 +1,33 @@
+.footer {
+  margin: 0;
+  background-color: #2D4059;
+}
+
+.footer-infos {
+  display: flex;
+  justify-content: center;
+  padding: 5vh;
+}
+
+.footer-infos-card {
+  display: flex;
+  margin: 3vh;
+}
+
+.footer-infos-card-text {
+  text-wrap: wrap;
+  width: 25vh;
+}
+
+.footer-infos-card-img {
+  margin: 5vh 5vh;
+  background-color: aliceblue;
+  padding: 2vh;
+  border-radius: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
