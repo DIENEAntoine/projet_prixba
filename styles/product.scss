@@ -41,8 +41,30 @@ body {
 
 .main-produit-itembar-G-img {
     margin-right: 3vh;
+    margin-top: 2vh;
 }
 
 .main-produit-itembar-G-txt {
     margin-right: 3vh;
+}
+
+.main-produit-itemcard {
+    border: 1px grey solid;
+    display: flex;
+    padding: 5vh;
+    margin-top: 5vh;
+}
+
+.main-produit-itemcard-img {
+    margin-right: 5vh;
+}
+
+.main-produit-itemcard-txt {
+    margin-right: 40vh;
+}
+
+.main-produit-littlcard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
 }
