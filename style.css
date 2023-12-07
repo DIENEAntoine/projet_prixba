@@ -1,15 +1,47 @@
 body {
   margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .main-list {
-  margin: 10vh 35vh;
+  margin-top: 10vh;
+  margin-left: 10vh;
+  margin-right: 5vh;
 }
 
 .main-produit {
-  margin: 10vh 35vh;
+  margin-top: 10vh;
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+
+.main-list-titre {
+  display: flex;
+}
+
+.main-list-titre-img {
+  margin-top: 2vh;
+  margin-right: 2vh;
+}
+
+.main-produit-itembar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-produit-itembar-G {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25vh;
+}
+
+.main-produit-itembar-G-img {
+  margin-right: 3vh;
+}
+
+.main-produit-itembar-G-txt {
+  margin-right: 3vh;
 }
 
 /*# sourceMappingURL=style.css.map */
