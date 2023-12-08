@@ -1,115 +1,19 @@
-.product-list-titre-item {
-  list-style: none;
-}
+/* Error: It's not clear which file to import. Found:
+ *   styles\_reset.scss
+ *   styles\reset.scss
+ *   ,
+ * 1 | @import "reset";
+ *   |         ^^^^^^^
+ *   '
+ *   styles\main.scss 1:9  root stylesheet */
 
-body {
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: It's not clear which file to import. Found:\a   styles\\_reset.scss\a   styles\\reset.scss\a   \2577 \a 1 \2502  @import \"reset\";\d\a   \2502          ^^^^^^^\a   \2575 \a   styles\\main.scss 1:9  root stylesheet";
 }
-
-.product-list {
-  margin-top: 10vh;
-  margin-left: 10vh;
-  margin-right: 5vh;
-}
-
-.product-produit {
-  margin-top: 10vh;
-  margin-left: 15vh;
-  margin-right: 15vh;
-}
-
-.product-list-titre {
-  display: flex;
-}
-
-.product-list-titre-txt {
-  font-family: "montserrat";
-}
-
-.product-list-titre-item {
-  margin: 2vh;
-  list-style: url("../product-img/Ellipse_5.png");
-  font-family: "montserrat";
-}
-
-.product-list-titre-img {
-  margin-top: 2vh;
-  margin-right: 2vh;
-}
-
-.product-produit-itembar {
-  display: flex;
-  justify-content: space-around;
-}
-
-.product-produit-itembar-G {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 25vh;
-}
-
-.product-produit-itembar-G-img {
-  margin-right: 3vh;
-  margin-top: 2vh;
-}
-
-.product-produit-itembar-G-txt {
-  margin-right: 3vh;
-  font-family: "montserrat";
-}
-
-.product-produit-itembar-D-bouton {
-  border: none;
-  padding: 2vh;
-  color: white;
-  background-color: #EA5455;
-  border-radius: 5%;
-  font-family: "montserrat";
-}
-
-.product-produit-itembar-D-bouton-fleche {
-  margin-left: 1.5vh;
-}
-
-.product-produit-itemcard {
-  box-shadow: 0 0 0.4em lightgray;
-  display: flex;
-  padding: 5vh;
-  margin-top: 5vh;
-  border-radius: 10px;
-}
-
-.product-produit-itemcard-img {
-  margin-right: 5vh;
-}
-
-.product-produit-itemcard-txt {
-  margin-right: 40vh;
-  font-family: "montserrat";
-}
-
-.product-produit-littlcard {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-}
-
-.product-produit-littlcard-item {
-  padding: 2vh;
-  box-shadow: 0 0 0.4em lightgray;
-}
-
-.product-produit-littlcard-item-txt {
-  font-family: "montserrat";
-}
-
-.product-produit-littlcard-item-divt {
-  display: flex;
-  justify-content: space-between;
-  font-family: "montserrat";
-}
-
-/*# sourceMappingURL=style.css.map */
