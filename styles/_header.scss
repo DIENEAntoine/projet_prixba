@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 header {
     min-width: 1200px;
@@ -6,6 +10,7 @@ header {
     align-items: center;
     background-color: rgb(202, 199, 199);
     padding: 10px 20px;
+    height: 120px;
 }
 
 header #logo {
@@ -26,24 +31,26 @@ header #left-container {
     
 }
 
-#left-container h2 {
+#left-container h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 21px;
+    font-size: xx-large;
+    margin-left: 30px;
+
 }
 
 header #left-container ul {
-    display: flex;
-    margin-top: 10px;
+    display: flex; margin-top: 10px;
 }
 
 #left-container ul li {
     font-family: 'Montserrat', sans-serif;
     margin-right: 25px;
+    font-size: x-large;
 }
 
 #left-container ul p {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 
@@ -51,8 +58,7 @@ header #left-container ul {
 
 
 nav #nav-container {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -63,9 +69,9 @@ nav #nav-container {
    margin: 10px;
    padding: 5px 10px;
    border-radius: 6px;
-   font-family: 'Montserrat', sans-serif;
+   font-size: x-large;
 }
- 
+
 .nav-search .cat {
     background-color: rgb(202, 199, 199);
     color: rgb(13, 13, 38);
@@ -78,7 +84,7 @@ nav #nav-container {
 
 .nav-search input {
     width: 200px;
-    height: 30px;
+    height: 40px;
 }
 
 #nav-container ul {
@@ -87,7 +93,8 @@ nav #nav-container {
 
 
 #nav-container ul li{
-    margin: 15px;
+    margin: 20px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
 }
