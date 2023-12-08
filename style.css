@@ -160,6 +160,10 @@ nav #nav-container {
   margin: 3vh;
 }
 
+.footer-infos-card-div {
+  margin-top: 5vh;
+}
+
 .footer-infos-card-text {
   text-wrap: wrap;
   width: 25vh;
@@ -192,10 +196,12 @@ nav #nav-container {
 .footer-section-list-textD {
   text-align: end;
   font-family: "montserrat";
+  margin: 3vh;
 }
 
 .footer-section-list-textG {
   font-family: "montserrat";
+  margin: 3vh;
 }
 
 .footer-copyright-text {
@@ -203,7 +209,6 @@ nav #nav-container {
   text-align: center;
   line-height: 5vh;
   vertical-align: middle;
-  margin-bottom: 5vh;
   font-family: "montserrat";
 }
 
@@ -267,6 +272,7 @@ body {
 .product-produit-itembar-G-txt {
   margin-right: 3vh;
   font-family: "montserrat";
+  margin-top: 2.5vh;
 }
 
 .product-produit-itembar-D-bouton {
