@@ -230,6 +230,7 @@ body {
 
 .product-list-titre {
   display: flex;
+  margin-bottom: 4vh;
 }
 
 .product-list-titre-txt {
@@ -243,7 +244,7 @@ body {
 }
 
 .product-list-titre-img {
-  margin-top: 2vh;
+  margin-top: 0vh;
   margin-right: 2vh;
 }
 
@@ -298,6 +299,10 @@ body {
   font-family: "montserrat";
 }
 
+.product-produit-itemcard-txt-elmnt {
+  margin: 3.5vh;
+}
+
 .product-produit-littlcard {
   display: flex;
   justify-content: space-between;
@@ -312,6 +317,8 @@ body {
 
 .product-produit-littlcard-item-txt {
   font-family: "montserrat";
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 
 .product-produit-littlcard-item-divt {
