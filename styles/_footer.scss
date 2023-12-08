@@ -15,6 +15,10 @@
     
 }
 
+.footer-infos-card-div {
+    margin-top: 5vh;
+}
+
 .footer-infos-card-text {
     text-wrap: wrap;
     width: 25vh;
@@ -46,10 +50,12 @@
 .footer-section-list-textD {
     text-align: end;
     font-family: "montserrat";
+    margin: 3vh;
 }
 
 .footer-section-list-textG {
     font-family: "montserrat";
+    margin: 3vh;
 }
 
 
@@ -58,6 +64,5 @@
     text-align: center;
     line-height: 5vh;
     vertical-align: middle;
-    margin-bottom: 5vh;
     font-family: "montserrat";
 }
